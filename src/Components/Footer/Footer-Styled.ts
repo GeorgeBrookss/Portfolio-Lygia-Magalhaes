@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Footer = styled.footer`
-  max-width: 1196px;
+  max-width: 934px;
   width: 100%;
   justify-self: center;
   display: flex;
@@ -10,8 +10,25 @@ export const Footer = styled.footer`
   font-family: 'Assistant', sans-serif;
   color: #f3f3f3;
   border-bottom: 1px solid #707070;
-  margin: 0 auto;
-  padding: 0 12px;
+  margin-left: 42px;
+  margin-right: 42px;
+  padding: 0;
+
+  @media (max-width: 1024px) {
+    width: 700px;
+  }
+
+  @media (max-width: 764px) {
+    width: 500px;
+  }
+
+  @media (max-width: 600px) {
+    width: 400px;
+  }
+
+  @media (max-width: 421px) {
+    width: 300px;
+  }
 
   .logo {
     margin-bottom: 24px;
@@ -28,6 +45,7 @@ export const Footer = styled.footer`
     text-align: center;
     padding: 0;
     margin-right: 0;
+    gap: 24px;
 
     @media (max-width: 768px) {
     }
@@ -38,8 +56,8 @@ export const Footer = styled.footer`
       list-style: none;
 
       img {
-        width: 36px;
-        height: 40px;
+        width: 20px;
+        height: 20px;
       }
     }
   }
@@ -47,7 +65,7 @@ export const Footer = styled.footer`
 export const Copyright = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
-  max-width: 1196px;
+  max-width: 934px;
   width: 100%;
   justify-self: center;
   font-family: 'Inter', sans-serif;
@@ -55,13 +73,19 @@ export const Copyright = styled.div`
   font-size: 12px;
   line-height: 16px;
 
-  @media (max-width: 768px) {
-    margin: 24px auto;
-    padding: 0 12px;
-    font-size: 12px;
-  }
   @media (max-width: 1024px) {
-    margin: 24px auto;
-    padding: 0 12px;
+    width: 700px;
+  }
+
+  @media (max-width: 764px) {
+    width: 500px;
+  }
+
+  @media (max-width: 600px) {
+    width: 400px;
+  }
+
+  @media (max-width: 421px) {
+    width: 300px;
   }
 `

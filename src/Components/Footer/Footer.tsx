@@ -1,8 +1,8 @@
 import { Copyright, Footer } from './Footer-Styled'
 import Logo from '../../images/logo.png'
-import emailbutton from '../../images/emailbutton.png'
-import linkedinbutton from '../../images/linkedinbutton.png'
-import behancebutton from '../../images/behancebutton.png'
+import emailbutton from '../../images/emailbutton.svg'
+import linkedinbutton from '../../images/linkedinbutton.svg'
+import behancebutton from '../../images/behancebutton.svg'
 
 function FooterPage() {
   return (

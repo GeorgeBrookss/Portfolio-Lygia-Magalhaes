@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import GlobalStyle from './GlobalStyles'
 import Main from './Pages/Main/Main'
+import ScrollToTop from './Components/ScrollToTop/Scroll'
 
 import Projeto1 from './Pages/p1/Projeto1'
 import Projeto2 from './Pages/p2/Projeto2'
@@ -11,6 +12,8 @@ function App() {
     <>
       <BrowserRouter>
         <GlobalStyle />
+        <ScrollToTop />
+
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/bora-juntas" element={<Projeto1 />} />
