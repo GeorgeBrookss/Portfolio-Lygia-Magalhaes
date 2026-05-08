@@ -5,6 +5,7 @@ export const ContainerStyled = styled.div`
   justify-content: space-between;
   max-width: 1296px;
   width: 100%;
+  margin-top: 140px;
 
   h1 {
     width: fit-content;

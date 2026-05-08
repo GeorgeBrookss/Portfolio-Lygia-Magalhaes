@@ -13,6 +13,7 @@ export const MainBody = styled.div`
   margin: 72px auto 0;
   padding: 0 64px;
   color: #f3f3f3;
+  margin-top: 140px;
 
   @media (max-width: 1024px) {
     padding: 0 24px;
