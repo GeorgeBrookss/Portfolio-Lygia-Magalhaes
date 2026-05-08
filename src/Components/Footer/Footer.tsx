@@ -1,5 +1,5 @@
 import { Copyright, Footer } from './Footer-Styled'
-import Logo from '../../images/logo.png'
+import Logo from '../../images/logo.svg'
 import emailbutton from '../../images/emailbutton.svg'
 import linkedinbutton from '../../images/linkedinbutton.svg'
 import behancebutton from '../../images/behancebutton.svg'
@@ -14,7 +14,9 @@ function FooterPage() {
         <div>
           <ul>
             <li>
-              <img src={emailbutton} alt="" />
+              <a href="mailto:lygia.magalhaes@outlook.com">
+                <img src={emailbutton} alt="" />
+              </a>
             </li>
             <li>
               <a

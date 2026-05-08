@@ -22,7 +22,9 @@ export const ContainerStyled = styled.div`
       justify-self: center;
 
       img {
-        max-width: 280px;
+        max-width: 615;
+        width: 100%;
+        height: 243px;
       }
     }
   }
@@ -60,7 +62,8 @@ export const ContainerStyled = styled.div`
   }
 
   img {
-    width: 300px;
+    width: 438px;
+    height: 341px;
   }
 `
 export const ContainerDesc = styled.div`
@@ -77,6 +80,12 @@ export const ContainerDesc = styled.div`
 
     @media (max-width: 768px) {
       padding-right: 0;
+    }
+  }
+
+  ul {
+    li {
+      font-family: 'Assistant', serif;
     }
   }
 
@@ -129,15 +138,16 @@ export const ContainerStyledImgs = styled.div`
   }
 `
 export const IframeStyled = styled.div`
-  max-width: 1296px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-
-  iframe {
+  img {
     border: 1px solid rgba(0, 0, 0, 0.08);
-    width: 996px;
-    min-height: 925px;
+    max-height: 537px;
+    max-width: 1296px;
+    width: 100%;
+
+    @media (max-width: 425px) {
+      max-width: 364px;
+      height: 100%;
+    }
   }
 
   @media (max-width: 425px) {
@@ -145,9 +155,8 @@ export const IframeStyled = styled.div`
     width: 100%;
     margin: 0 auto;
 
-    iframe {
-      width: 100%;
-      height: 280px;
+    img {
+      max-width: 280px;
       margin: 0;
       border: 1px solid rgba(0, 0, 0, 0.1);
     }

@@ -1,6 +1,7 @@
 import { Header, MainContainer } from './Header-Styled'
-import menuBurger from '../../images/menuBurger.png'
+import menuBurger from '../../images/menuBurger.svg'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function HeaderPage() {
   return (
@@ -18,10 +19,12 @@ function HeaderPage() {
 
             <ul>
               <li>
-                <a href="#sobre">Sobre</a>
+                <HashLink smooth to="/#sobre">
+                  Sobre
+                </HashLink>
               </li>
               <li>
-                <a href="#projetos">Projetos</a>
+                <HashLink to="/#projetos">Projetos</HashLink>
               </li>
               <li>
                 <a

@@ -22,7 +22,9 @@ export const ContainerStyled = styled.div`
       justify-self: center;
 
       img {
-        max-width: 280px;
+        max-width: 615;
+        width: 100%;
+        height: 243px;
       }
     }
   }
@@ -60,7 +62,8 @@ export const ContainerStyled = styled.div`
   }
 
   img {
-    width: 300px;
+    width: 438px;
+    height: 341px;
   }
 `
 export const ContainerDesc = styled.div`
@@ -129,15 +132,11 @@ export const ContainerStyledImgs = styled.div`
   }
 `
 export const IframeStyled = styled.div`
-  max-width: 1296px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-
   iframe {
     border: 1px solid rgba(0, 0, 0, 0.08);
-    width: 996px;
-    min-height: 925px;
+    min-height: 725px;
+    max-width: 1296px;
+    width: 100%;
   }
 
   @media (max-width: 425px) {
@@ -146,8 +145,7 @@ export const IframeStyled = styled.div`
     margin: 0 auto;
 
     iframe {
-      width: 100%;
-      height: 280px;
+      max-width: 280px;
       margin: 0;
       border: 1px solid rgba(0, 0, 0, 0.1);
     }

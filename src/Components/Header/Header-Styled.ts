@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import logoHover from '../../images/logoHover.png'
-import Logo from '../../images/logo.png'
+import logoHover from '../../images/logoHover.svg'
+import Logo from '../../images/logo.svg'
 
 export const Header = styled.header`
   max-width: 100%;
