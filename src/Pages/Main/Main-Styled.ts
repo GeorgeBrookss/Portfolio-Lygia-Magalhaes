@@ -172,7 +172,7 @@ export const Projetos = styled.section`
       flex-direction: column;
       align-items: center;
       border-radius: 32px;
-      border: 1px solid #f3f3f3;
+      border: 1px solid #c2c2c2;
       background-image: url(${TextureCard});
       background-size: cover;
       background-position: center;
